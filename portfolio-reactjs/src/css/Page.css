@@ -1,0 +1,18 @@
+.page__bannerImg {
+  width: 100%;
+  display: block;
+  object-fit: cover;
+  max-height: 280px;
+}
+
+.page__header {
+  padding: 24px 16px 0;
+}
+
+.page__body {
+  padding: 16px;
+}
+
+.page__divider {
+  margin-top: 16px;
+}
