@@ -1,0 +1,7 @@
+.adresse, .phone{
+  display: flex;
+  gap: 8px;
+}
+.hebergeur h2, .credit h2{
+font-weight: 600;
+}

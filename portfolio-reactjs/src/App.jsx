@@ -12,6 +12,10 @@ import Portfolio from "./pages/Portfolio";
 import Contact from "./pages/Contact";
 import Legal from "./pages/Legal";
 
+import './css/App.css'
+
+import 'bootstrap-icons/font/bootstrap-icons.css';
+
 function App() {
   const [count, setCount] = useState(0)
 
