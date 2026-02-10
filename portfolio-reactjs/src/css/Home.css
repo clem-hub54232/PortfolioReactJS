@@ -1,0 +1,52 @@
+.hero.hero {
+    background-image: url("../img/hero-bg.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    min-height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+    color: white;
+}
+
+.hero-content {
+    text-align: center;
+    z-index: 2;
+}
+
+.hero::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(255, 255, 255, 0.322);
+    z-index: 1;
+}
+
+.hero-content h1,
+.hero-content h2 {
+    font-weight: 600;
+}
+
+.profil-github {
+    display: flex;
+}
+
+.profil span, .following span {
+    padding-left: 7px;
+}
+
+.profil {
+    display: flex;
+    border-bottom: 1px solid #484e55;
+    padding-bottom: 5px;
+    font-size: small;
+}
+.following{
+    display: flex;
+    padding-bottom: 5px;
+    font-size: small;
+}
