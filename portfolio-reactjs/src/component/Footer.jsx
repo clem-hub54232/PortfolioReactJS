@@ -12,19 +12,19 @@ function Footer() {
         <span>10 20 30 40 50</span>
         <span>johon.doe@gmail.com</span>
         <div className='footer-section-reseaux'>
-          <i class="bi bi-github"></i>
-          <i class="bi bi-twitter"></i>
-          <i class="bi bi-linkedin"></i>
+          <a href="https://github.com/github-john-doe"><i class="bi bi-github"></i></a>
+          <a href="https://x.com"><i class="bi bi-twitter"></i></a>
+          <a href="https://linkedin.com"><i class="bi bi-linkedin"></i></a>
         </div>
       </Col>
       <Col lg={3} md={3} className='footer-section'>
         <span className='footer-section-title'>Liens utiles</span>
         {/* <div className='footer-section-links'> */}
-        <NavLink to="/">Home</NavLink>
-        <NavLink to="/services">Services</NavLink>
-        <NavLink to="/portfolio">Portfolio</NavLink>
-        <NavLink to="/contact">Contact</NavLink>
-        <NavLink to="/legal">Mentions légales</NavLink>
+        <NavLink to="/" target='_blank'>Home</NavLink>
+        <NavLink to="/services" target='_blank'>Services</NavLink>
+        <NavLink to="/portfolio" target='_blank'>Portfolio</NavLink>
+        <NavLink to="/contact" target='_blank'>Contact</NavLink>
+        <NavLink to="/legal" target='_blank'>Mentions légales</NavLink>
         {/* </div> */}
       </Col>
       <Col lg={5} md={5} className='footer-section'>

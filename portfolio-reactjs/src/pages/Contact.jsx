@@ -15,11 +15,11 @@ function Contact() {
                             <hr className="form-divider" />
                             <Form>
                                 <Form.Group className="mb-3 me-3" controlId="exampleForm.ControlInput1">
-                                    <Form.Control className="mb-3" type="text" placeholder="Votre nom" />
-                                    <Form.Control className="mb-3" type="email" placeholder="Votre adresse email" />
-                                    <Form.Control className="mb-3" type="text" placeholder="Votre numéro de téléphone" />
-                                    <Form.Control className="mb-3" type="text" placeholder="Sujet" />
-                                    <Form.Control className="mb-3" as="textarea" placeholder="Votre message" rows={5} />
+                                    <Form.Control className="mb-3" type="text" placeholder="Votre nom" required/>
+                                    <Form.Control className="mb-3" type="email" placeholder="Votre adresse email" required />
+                                    <Form.Control className="mb-3" type="text" placeholder="Votre numéro de téléphone" required/>
+                                    <Form.Control className="mb-3" type="text" placeholder="Sujet" required/>
+                                    <Form.Control className="mb-3" as="textarea" placeholder="Votre message" rows={5} required/>
                                 </Form.Group>
 
                             </Form>

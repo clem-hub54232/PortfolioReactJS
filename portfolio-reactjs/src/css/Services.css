@@ -1,0 +1,20 @@
+.services p{
+    font-size: small;
+}
+
+.services .card-title {
+    font-weight: bolder;
+}
+
+.services .card-title i {
+    font-size: 30px;
+    color: #0d6efd;
+}
+.services .image {
+    margin: 30px;
+}
+
+.card:hover {
+  background-color: #efefef;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}

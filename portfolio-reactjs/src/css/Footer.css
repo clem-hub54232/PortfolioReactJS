@@ -1,6 +1,5 @@
 .footer {
   background-color: #1f2937;
-  /* équivalent gray-800 */
   color: white;
   padding: 1rem 2rem;
 }
@@ -19,14 +18,23 @@
   font-size: small;
 }
 
-.footer-section-reseaux {
-  display: flex;
-  gap: 5px;
-  color: #484d53;
-}
-
 .footer-section a {
   color: white;
   text-decoration: none;
   font-size: small;
+}
+
+.footer-section .footer-section-reseaux{
+  display: flex;
+  gap: 5px;
+}
+
+.footer-section .footer-section-reseaux a{
+  color: #484d53;
+  font-size: 25px;
+}
+
+.footer-section .footer-section-reseaux a:hover{
+  color: #707881;
+  font-size: 25px;
 }
