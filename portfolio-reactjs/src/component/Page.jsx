@@ -8,9 +8,9 @@ function Page({ bannerSrc, title, subtitle, children }) {
       </div>
 
       <div className="page__header">
-        <h1 className="page__title">{title}</h1>
+        <h3 className="page-title">{title}</h3>
         {subtitle ? <p className="page__subtitle">{subtitle}</p> : null}
-        <hr className="page__divider" />
+        <hr className="page-divider" />
       </div>
 
       <div className="page__body">

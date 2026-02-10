@@ -4,3 +4,29 @@
   color: white;
   padding: 1rem 2rem;
 }
+
+.footer-section {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+
+.footer-section .footer-section-title {
+  font-size: large;
+}
+
+.footer-section span {
+  font-size: small;
+}
+
+.footer-section-reseaux {
+  display: flex;
+  gap: 5px;
+  color: #484d53;
+}
+
+.footer-section a {
+  color: white;
+  text-decoration: none;
+  font-size: small;
+}

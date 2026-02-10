@@ -7,12 +7,26 @@
 
 .page__header {
   padding: 24px 16px 0;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+
 }
 
 .page__body {
   padding: 16px;
 }
 
-.page__divider {
+hr.page-divider {
+  width: 400px;
+  border: none;
+  height: 4px;
+  background-color:  #0d6efd ;
   margin-top: 16px;
+  opacity: 1;
+}
+
+.page-title {
+font-weight: bold;
+
 }
